@@ -1,9 +1,9 @@
 {
-  "name": "jpegtran-bin",
+  "name": "jpegtran-changba",
   "version": "5.0.2",
   "description": "jpegtran (part of libjpeg-turbo) bin-wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/jpegtran-bin",
+  "repository": "ChangbaFE/jpegtran-bin",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
