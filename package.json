@@ -1,5 +1,5 @@
 {
-  "name": "jpegtran-changba",
+  "name": "@changba/jpegtran",
   "version": "5.0.3",
   "description": "jpegtran (part of libjpeg-turbo) bin-wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
