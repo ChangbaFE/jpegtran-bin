@@ -4,13 +4,11 @@
 
 You probably want [`imagemin-jpegtran`](https://github.com/imagemin/imagemin-jpegtran) instead.
 
-
 ## Install
 
 ```
 $ npm install --save jpegtran-changba
 ```
-
 
 ## Usage
 
@@ -19,10 +17,9 @@ const {execFile} = require('child_process');
 const jpegtran = require('jpegtran-changba');
 
 execFile(jpegtran, ['-outfile', 'output.jpg', 'input.jpg'], error => {
-	console.log('Image minified!');
+  console.log('Image minified!');
 });
 ```
-
 
 ## CLI
 
@@ -33,7 +30,6 @@ $ npm install --global jpegtran-changba
 ```
 $ jpegtran --help
 ```
-
 
 ## License
 

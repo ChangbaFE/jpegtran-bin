@@ -12,11 +12,11 @@ const jpegtran = require('..');
 test('rebuild the jpegtran binaries', async t => {
 	const temporary = tempy.directory();
 	const cfg = [
-		'./configure --disable-shared',
-		`--prefix="${temporary}" --bindir="${temporary}"`
+		'cmake -G"Unix Makefiles" -DENABLE_SHARED=0',
+		`-DCMAKE_INSTALL_PREFIX="${temporary}" -DCMAKE_INSTALL_BINDIR="${temporary}"`
 	].join(' ');
 
-	await binBuild.file(path.resolve(__dirname, '../vendor/source/libjpeg-turbo-1.5.1.tar.gz'), [
+	await binBuild.file(path.resolve(__dirname, '../vendor/source/libjpeg-turbo-2.0.5.tar.gz'), [
 		cfg,
 		'make install'
 	]);
