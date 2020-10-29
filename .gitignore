@@ -2,3 +2,10 @@ node_modules
 test/tmp
 vendor/jpegtran*
 vendor/share
+vendor/include
+vendor/lib
+vendor/cjpeg*
+vendor/djpeg*
+vendor/rdjpgcom
+vendor/tjbench
+vendor/wrjpgcom
