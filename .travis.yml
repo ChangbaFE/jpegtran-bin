@@ -1,7 +1,5 @@
 os:
   - linux
-  - windows
-compiler: cl
 language: node_js
 node_js:
   - '14'
